@@ -1,0 +1,62 @@
+.logo {
+  max-width: 180px !important;
+  height: auto;
+}
+
+.github {
+  max-width: 160px !important;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    max-width: 120px !important;
+  }
+
+  .github {
+    max-width: 120px !important;
+  }
+}
+
+.logoReact {
+  max-width: 70px !important;
+  height: auto;
+}
+
+.logoReactTools {
+  max-width: 80px !important;
+  height: auto;
+  margin-left: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 0 21px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.23);
+}
+
+.button {
+  border-radius: 0;
+  border: none !important;
+  background: none !important;
+  font-size: 17px !important;
+  padding: 10px 20px !important;
+}
+
+.button:hover {
+  background: #999 !important;
+}
+
+.wrapper {
+  min-height: calc(100vh - 198px);
+}
